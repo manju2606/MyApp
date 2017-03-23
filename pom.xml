@@ -4,7 +4,7 @@
 	<groupId>MyApp</groupId>
 	<artifactId>MyApp</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>MyApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<build>
@@ -228,5 +228,7 @@
 			<url>http://127.0.0.1:8081/nexus/content/repositories/MyAppRepo</url>
 		</snapshotRepository>
 	</distributionManagement>
+	
+
 </project>
 
