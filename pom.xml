@@ -3,7 +3,7 @@
 	<groupId>MyApp</groupId>
 	<artifactId>MyApp</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>MyApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<build>
@@ -217,7 +217,8 @@
 		</dependency>
 	</dependencies>
 
-	<distributionManagement>
+	
+	<!-- <distributionManagement>
 		<repository>
 			<id>MyAppRepo</id>
 			<url>http://127.0.0.1:8081/nexus/content/repositories/MyAppRepo</url>
@@ -226,13 +227,14 @@
 			<id>MyAppRepo</id>
 			<url>http://127.0.0.1:8081/nexus/content/repositories/MyAppRepo</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>  -->
 	
 	<scm>
   		<connection>scm:git:https://github.com/manju2606/MyApp.git</connection>
   		<developerConnection>scm:git:https://github.com/manju2606/MyApp.git</developerConnection>
   		<url>scm:git:https://github.com/manju2606/MyApp.git</url>
-	</scm>
+	  <tag>HEAD</tag>
+  </scm>
 
 </project>
 
