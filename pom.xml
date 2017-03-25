@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>MyApp</groupId>
 	<artifactId>MyApp</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>MyApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<build>
@@ -56,17 +55,17 @@
 							<!-- See http://checkstyle.sf.net/config_sizes.html -->
 							<module name="FileLength">
 								<property name="max" value="3500" />
-								<property name="fileExtensions" value="java"/>
+								<property name="fileExtensions" value="java" />
 							</module>
 
 							<!-- Checks for whitespace                               -->
 							<!-- See http://checkstyle.sf.net/config_whitespace.html -->
-							<module name="FileTabCharacter"/>
+							<module name="FileTabCharacter" />
 
 							<module name="TreeWalker">
-								<module name="StaticVariableName"/>
+								<module name="StaticVariableName" />
 								<module name="TypeName">
-									<property name="format" value="^_?[A-Z][a-zA-Z0-9]*$"/>
+									<property name="format" value="^_?[A-Z][a-zA-Z0-9]*$" />
 								</module>
 							</module>
 						</module>
@@ -229,11 +228,11 @@
 		</snapshotRepository>
 	</distributionManagement>
 	
-		<scm>
-  		<connection>scm:git:git://github.com/manju2606/MyApp.git</connection>
-  		<developerConnection>scm:git:git://github.com/manju2606/MyApp.git</developerConnection>
-  		<url>scm:git:git://github.com/manju2606/MyApp.git</url>
-		</scm>
+	<scm>
+  		<connection>scm:git:https://github.com/manju2606/MyApp.git</connection>
+  		<developerConnection>scm:git:https://github.com/manju2606/MyApp.git</developerConnection>
+  		<url>scm:git:https://github.com/manju2606/MyApp.git</url>
+	</scm>
 
 </project>
 
