@@ -4,7 +4,7 @@
 	<groupId>MyApp</groupId>
 	<artifactId>MyApp</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>MyApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<build>
@@ -229,6 +229,11 @@
 		</snapshotRepository>
 	</distributionManagement>
 	
+		<scm>
+  		<connection>scm:git:git://github.com/manju2606/MyApp.git</connection>
+  		<developerConnection>scm:git:git://github.com/manju2606/MyApp.git</developerConnection>
+  		<url>scm:git:git://github.com/manju2606/MyApp.git</url>
+		</scm>
 
 </project>
 
